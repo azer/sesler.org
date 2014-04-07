@@ -1,0 +1,23 @@
+.song span {
+  background: rgba(30, 75, 125, 0.4);
+}
+
+.song:nth-child(2n) span {
+  background: rgba(225, 75, 25, 0.4);
+}
+
+.song:nth-child(3n) span {
+  background: rgba(30, 175, 125, 0.5);
+}
+
+.song:nth-child(4n) span {
+  background: rgba(205, 155, 25, 0.5);
+}
+
+.song.selected span {
+  background: rgba(0, 0, 40, 0.8) !important;
+}
+
+.song:hover span {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
